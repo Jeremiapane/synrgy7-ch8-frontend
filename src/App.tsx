@@ -16,7 +16,7 @@ function App() {
         <>
             <Router>
                 <Routes>
-                    <Route path="/" Component={LandingPages} />
+                    <Route path="/" element={<LandingPages />} />
                     <Route
                         path="/cars"
                         element={
@@ -33,8 +33,8 @@ function App() {
                             </Auth>
                         }
                     />
-                    <Route path="/login" Component={Login} />
-                    <Route path="/register" Component={Register} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/register" element={<Register />} />
                     <Route
                         path="/dashboard"
                         element={
@@ -59,7 +59,7 @@ function App() {
                             </AuthAdmin>
                         }
                     />
-                    <Route path="/LoginAdmin" Component={LoginAdmin} />
+                    <Route path="/loginAdmin" element={<LoginAdmin />} />
                 </Routes>
             </Router>
         </>
