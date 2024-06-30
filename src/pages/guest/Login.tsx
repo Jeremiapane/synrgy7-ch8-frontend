@@ -76,7 +76,7 @@ const Login: React.FC = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-8">
-                        <Image src=".\images\loginBackground.jpg" fluid />
+                        <Image src="public/static/images/loginBackground.jpg" fluid />
                     </div>
                     <div className="col-md-4">
                         <h1>Welcome to BCR</h1>

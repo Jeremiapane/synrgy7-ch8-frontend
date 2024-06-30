@@ -29,15 +29,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ car }) => {
                     <p className="body-light-14">{description}</p>
                 </div>
                 <p>
-                    <img src=".\images\fi_users.png" height="20px" alt="Users" />
+                    <img src="public/static/images/fi_users.png" height="20px" alt="Users" />
                     {capacity} Orang
                 </p>
                 <p>
-                    <img src=".\images\fi_settings.png" height="20px" alt="Settings" />
+                    <img src="public/static/images/fi_settings.png" height="20px" alt="Settings" />
                     {transmission}
                 </p>
                 <p>
-                    <img src=".\images\fi_calendar.png" height="20px" alt="Calendar" />
+                    <img src="public/static/images/fi_calendar.png" height="20px" alt="Calendar" />
                     Tahun {year}
                 </p>
             </div>

@@ -49,7 +49,7 @@ const Register: React.FC = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-8">
-                        <Image src=".\images\loginBackground.jpg" fluid />
+                        <Image src="public/static/images/loginBackground.jpg" fluid />
                     </div>
                     <div className="col-md-4">
                         <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
