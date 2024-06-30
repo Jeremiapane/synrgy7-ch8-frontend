@@ -91,6 +91,7 @@ const Login: React.FC = () => {
                             </button>
                         </form>
                         <a href="/register">Belum punya akun?</a>
+                        <a href="/loginAdmin">Login sebagai admin?</a>
                         <br />
                         <GoogleOAuthProvider clientId="486816282345-uptrlghs9kd2mehv29p2ugiqor8rq4if.apps.googleusercontent.com">
                             <GoogleLogin
