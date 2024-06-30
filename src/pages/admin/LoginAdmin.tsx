@@ -44,7 +44,7 @@ const LoginAdmin: React.FC = () => {
     return (
         <div className="row align-items-center" style={{ maxWidth: "1440px", height: "100vh" }}>
             <div className="col-md-8">
-                <Image src="public/static/images/login_admin.png" fluid />
+                <Image src="static\images\login_admin.png" fluid />
             </div>
             <div className="col-md-4">
                 <h1>Welcome, Admin BCR</h1>

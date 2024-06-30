@@ -30,7 +30,7 @@ const AdminNavTop: React.FC = () => {
             <Container>
                 <Navbar style={{ display: "flex", justifyContent: "space-between" }}>
                     <div>
-                        <img src="public/static/images/fi_menu.png" alt="Menu Icon" />
+                        <img src="static\images\fi_menu.png" alt="Menu Icon" />
                     </div>
                     <div style={{ display: "flex", gap: 24, height: 40, marginRight: 24 }}>
                         <Form className="d-flex">
@@ -38,7 +38,7 @@ const AdminNavTop: React.FC = () => {
                             <Button variant="outline-success">Search</Button>
                         </Form>
                         <div className="user" style={{ display: "flex", paddingRight: 40 }}>
-                            <img src="public/static/images/img_photo3.png" alt="User Photo" style={{ width: "36px", height: "36px" }} />
+                            <img src="static\images\img_photo3.png" alt="User Photo" style={{ width: "36px", height: "36px" }} />
                             <Navbar.Collapse id="navbar-dark-example">
                                 <Nav>
                                     <NavDropdown id="nav-dropdown-dark-example" title={<User />} menuVariant="dark">

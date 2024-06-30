@@ -33,11 +33,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ car }) => {
                     {capacity} Orang
                 </p>
                 <p>
-                    <img src="public/static/images/fi_settings.png" height="20px" alt="Settings" />
+                    <img src="static\images\fi_settings.png" height="20px" alt="Settings" />
                     {transmission}
                 </p>
                 <p>
-                    <img src="public/static/images/fi_calendar.png" height="20px" alt="Calendar" />
+                    <img src="static\images\fi_calendar.png" height="20px" alt="Calendar" />
                     Tahun {year}
                 </p>
             </div>

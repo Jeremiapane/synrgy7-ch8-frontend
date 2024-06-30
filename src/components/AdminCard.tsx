@@ -43,7 +43,7 @@ const AdminCard: React.FC<AdminCardProps> = ({ car, onDelete }) => {
                     <p className="title-bold-16">Rp{harga}/Hari</p>
                 </div>
                 <p>
-                    <img src="public/static/images/fi_clock.png" height="20px" alt="Update time" />
+                    <img src="static\images\fi_clock.png" height="20px" alt="Update time" />
                     Updated at: {updated_at}
                 </p>
             </div>
