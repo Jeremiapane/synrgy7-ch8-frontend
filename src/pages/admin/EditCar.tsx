@@ -50,7 +50,7 @@ const EditCar: React.FC = () => {
                 formDataToSend.append("foto", formData.foto);
             }
 
-            const response = await fetch(`http://localhost:8686/api/v1/cars/edit/${id}`, {
+            const response = await fetch(`https://synrgy7-ch8-backend-production.up.railway.app/api/v1/cars/edit/${id}`, {
                 method: "PUT",
                 headers: {
                     Authorization: `Bearer ${token}`,

@@ -5,7 +5,7 @@ import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 
 const loginGoogle = async (payload: any) => {
-    const response = await fetch("http://localhost:8686/api/v1/users/login/google", {
+    const response = await fetch("https://synrgy7-ch8-backend-production.up.railway.app/api/v1/users/login/google", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -44,7 +44,7 @@ const Login: React.FC = () => {
         setError(null);
 
         try {
-            const response = await fetch("http://localhost:8686/api/v1/users/member/login", {
+            const response = await fetch("https://synrgy7-ch8-backend-production.up.railway.app/api/v1/users/member/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

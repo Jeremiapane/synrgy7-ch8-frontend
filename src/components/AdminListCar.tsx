@@ -25,12 +25,12 @@ const AdminListCar: React.FC = () => {
 
     const fetchCars = async () => {
         try {
-            const response = await fetch("http://localhost:8686/api/v1/cars");
+            const response = await fetch("https://synrgy7-ch8-backend-production.up.railway.app/api/v1/cars");
             if (!response.ok) {
                 throw new Error("Failed to fetch cars");
             }
             const data = await response.json();
-            console.log("Fetched data:", data); // Debugging line
+            console.log("Fetched data:", data);
             setCars(data.resp);
             localStorage.setItem("cars", JSON.stringify(data.resp));
         } catch (error) {
@@ -41,7 +41,7 @@ const AdminListCar: React.FC = () => {
     const handleDelete = async (id: string) => {
         const token = localStorage.getItem("token");
         try {
-            const response = await fetch(`http://localhost:8686/api/v1/cars/delete/${id}`, {
+            const response = await fetch(`https://synrgy7-ch8-backend-production.up.railway.app/api/v1/cars/delete/${id}`, {
                 method: "DELETE",
                 headers: {
                     Authorization: `Bearer ${token}`,

@@ -15,7 +15,7 @@ const LoginAdmin: React.FC = () => {
         setError(null);
 
         try {
-            const response = await fetch("http://localhost:8686/api/v1/users/admin/login", {
+            const response = await fetch("https://synrgy7-ch8-backend-production.up.railway.app/api/v1/users/admin/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
